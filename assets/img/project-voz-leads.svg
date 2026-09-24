@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a2d0b"/><stop offset="1" stop-color="#1e1e1f"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.06"/></pattern></defs>
+<rect width="640" height="400" fill="url(#g)"/><rect width="640" height="400" fill="url(#grid)"/>
+<circle cx="540" cy="90" r="120" fill="#F26522" fill-opacity="0.18"/>
+<circle cx="540" cy="90" r="60" fill="#F26522" fill-opacity="0.35"/>
+<text x="40" y="300" font-family="Poppins, Arial, sans-serif" font-size="54" font-weight="600" fill="#fafafa">Agente de voz IA</text>
+<text x="40" y="350" font-family="Poppins, Arial, sans-serif" font-size="30" font-weight="400" fill="#F26522">leads</text>
+</svg>
