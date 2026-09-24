@@ -3,14 +3,6 @@
 /* ---------- Utilidades ---------- */
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
-const toggle = (el) => el.classList.toggle('active');
-
-/* ---------- Barra lateral (mostrar contactos en móvil) ---------- */
-const sidebar = $('[data-sidebar]');
-const sidebarBtn = $('[data-sidebar-btn]');
-if (sidebar && sidebarBtn) {
-  sidebarBtn.addEventListener('click', () => toggle(sidebar));
-}
 
 /* ---------- Navegación por pestañas con soporte de #hash ----------
    Cada botón tiene data-target="sobre-mi" y cada article data-page="sobre-mi".
